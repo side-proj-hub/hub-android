@@ -1,6 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.Hub" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:textSize">16sp</item>
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
@@ -14,4 +15,15 @@
         <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_logo</item>
         <item name="postSplashScreenTheme">@style/Theme.Hub</item>
     </style>
+
+
+    <style name="Text.Title" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Contents" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">16sp</item>
+    </style>
+
 </resources>
