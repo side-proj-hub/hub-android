@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">hub</string>
+    
+<!--    LoginActivity-->
+    <string name="login_text_title">사내 동호회원들과\n소통을 위해 로그인해주세요.</string>
+    <string name="login_hint_email">이메일</string>
+    <string name="login_hint_password">비밀번호</string>
+    <string name="login_cb_auto">로그인 상태 유지하기</string>
+    <string name="login_btn_login">로그인</string>
+    <string name="login_btn_find_email">이메일 찾기</string>
+    <string name="login_btn_find_password">비밀번호 찾기</string>
+    <string name="login_text_signup">허브가 처음이신가요?</string>
+    <string name="login_btn_signup">회원가입하기</string>
 </resources>
