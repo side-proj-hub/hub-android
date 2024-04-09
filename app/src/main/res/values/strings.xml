@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">hub</string>
-    
-<!--    LoginActivity-->
+
+    <!--    LoginActivity-->
     <string name="login_text_title">사내 동호회원들과\n소통을 위해 로그인해주세요.</string>
     <string name="login_hint_email">이메일</string>
     <string name="login_hint_password">비밀번호</string>
@@ -11,4 +11,35 @@
     <string name="login_btn_find_password">비밀번호 찾기</string>
     <string name="login_text_signup">허브가 처음이신가요?</string>
     <string name="login_btn_signup">회원가입하기</string>
+
+    <!--    SignupActivity-->
+    <string name="signup_account_text_title_email">허브 회원가입을 위해\n이메일을 입력해주세요.</string>
+    <string name="signup_account_hint_email">이메일</string>
+    <string name="signup_account_text_title_password">비밀번호를\n입력해주세요.</string>
+    <string name="signup_account_hint_password">비밀번호</string>
+    <string name="signup_account_text_title_re_password">비밀번호 확인을 위해\n재입력해주세요.</string>
+    <string name="signup_account_hint_re_password">비밀번호 재입력</string>
+    <string name="signup_account_btn_next">다음</string>
+
+    <string name="signup_privacy_text_title_info">허브에서 활동할\n나의 정보를 입력해주세요.</string>
+    <string name="signup_privacy_hint_name">이름</string>
+    <string name="signup_privacy_hint_phone">전화번호 (선택)</string>
+    <string name="signup_privacy_btn_next">가입하기</string>
+
+    <string name="signup_btsheet_agree_all">전체동의</string>
+    <string name="signup_btsheet_agree_title">\"허브\" 서비스 동의</string>
+    <string name="signup_btsheet_agree_1">[필수] 서비스 이용약관</string>
+    <string name="signup_btsheet_agree_2">[필수] 개인정보 수집・이용 동의</string>
+    <string name="signup_btsheet_agree_3">[선택] 마케팅 정보 수신 동의</string>
+    <string name="signup_btsheet_agree_4">[필수] 만 14세 이상입니다.</string>
+    <string name="signup_btsheet_agree_show">보기</string>
+    <string name="signup_btsheet_agree_btn">동의하기</string>
+
+    <string name="signup_success_title">%1$s님,\n가입을 축하합니다.</string>
+    <string name="signup_success_guide">로그인을 위해\n이메일 인증을 해주세요.</string>
+    <string name="signup_success_btn">로그인으로 이동하기</string>
+
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

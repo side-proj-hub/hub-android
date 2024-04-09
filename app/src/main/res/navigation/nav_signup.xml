@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_signup"
+    app:startDestination="@id/signupAccountFragment">
+
+    <fragment
+        android:id="@+id/signupAccountFragment"
+        android:name="com.sideprojhub.hub.android.ui.signup.step.SignupAccountFragment"
+        android:label="fragment_signup_account"
+        tools:layout="@layout/fragment_signup_account" >
+        <action
+            android:id="@+id/action_signupAccountFragment_to_signupPrivacyFragment"
+            app:destination="@id/signupPrivacyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signupPrivacyFragment"
+        android:name="com.sideprojhub.hub.android.ui.signup.step.SignupPrivacyFragment"
+        android:label="fragment_signup_privacy"
+        tools:layout="@layout/fragment_signup_privacy" >
+        <action
+            android:id="@+id/action_signupPrivacyFragment_to_signupSuccessFragment"
+            app:destination="@id/signupSuccessFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signupSuccessFragment"
+        android:name="com.sideprojhub.hub.android.ui.signup.step.SignupSuccessFragment"
+        android:label="fragment_signup_success"
+        tools:layout="@layout/fragment_signup_success" />
+</navigation>
