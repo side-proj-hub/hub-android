@@ -13,7 +13,9 @@
         android:layout_height="match_parent"
         tools:context=".ui.signup.SignupActivity">
         
-        <View
+        <include
+            layout="@layout/layout_app_bar"
+            app:backVisible="@{false}"
             android:id="@+id/header"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"

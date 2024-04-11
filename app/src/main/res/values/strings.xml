@@ -40,6 +40,15 @@
     <string name="signup_success_btn">로그인으로 이동하기</string>
 
 
+<!--    SelectAuthActivity-->
+    <string name="auth_text_title">허브를 통해\n어떤 활동을 위해 가입하나요?</string>
+    <string name="auth_text_title_employee">직원</string>
+    <string name="auth_text_description_employee">회사에 합류해 동호회 활동을 원해요.</string>
+    <string name="auth_text_title_manager">관리자</string>
+    <string name="auth_text_description_manager">회사 생성 및 관리를 하길 원해요.</string>
+
+
+
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
