@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_create_company"
+    app:startDestination="@id/createCompanyFragment">
+
+    <fragment
+        android:id="@+id/createCompanyFragment"
+        android:name="com.sideprojhub.hub.android.ui.manage.create.CreateCompanyFragment"
+        android:label="fragment_create_company"
+        tools:layout="@layout/fragment_create_company" >
+        <action
+            android:id="@+id/action_createCompanyFragment_to_createTeamFragment"
+            app:destination="@id/createTeamFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createTeamFragment"
+        android:name="com.sideprojhub.hub.android.ui.manage.create.CreateTeamFragment"
+        android:label="fragment_create_team"
+        tools:layout="@layout/fragment_create_team" />
+</navigation>

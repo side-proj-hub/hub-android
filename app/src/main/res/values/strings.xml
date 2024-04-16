@@ -40,7 +40,7 @@
     <string name="signup_success_btn">로그인으로 이동하기</string>
 
 
-<!--    SelectAuthActivity-->
+    <!--    SelectAuthActivity-->
     <string name="auth_text_title">허브를 통해\n어떤 활동을 위해 가입하나요?</string>
     <string name="auth_text_title_employee">직원</string>
     <string name="auth_text_description_employee">회사에 합류해 동호회 활동을 원해요.</string>
@@ -48,7 +48,15 @@
     <string name="auth_text_description_manager">회사 생성 및 관리를 하길 원해요.</string>
 
 
-
+    <!--    CreateCompanyActivity-->
+    <string name="create_company_title_name">관리할 회사를 생성해주세요.</string>
+    <string name="create_company_hint_name">회사명</string>
+    <string name="create_company_btn_next_name">생성하기</string>
+    <string name="create_company_title_team">직원들을 위해\n팀명을 등록해주세요.</string>
+    <string name="create_company_hint_team">팀명(회사내 팀)</string>
+    <string name="create_company_btn_add_team">등록</string>
+    <string name="create_company_btn_next_team">등록하기</string>
+    <string name="create_company_btn_next_team_n">%1$s개 팀 등록하기</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

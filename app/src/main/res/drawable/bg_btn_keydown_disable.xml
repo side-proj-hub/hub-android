@@ -6,7 +6,7 @@
         <shape
             android:padding="10dp"
             android:shape="rectangle">
-            <solid android:color="@color/gray" />   <!-- 배경색 -->
+            <solid android:color="@color/gray_alpha" />   <!-- 배경색 -->
 
             <corners android:radius="100dp" /> <!-- 선 휘는각도 -->
 

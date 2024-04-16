@@ -2,7 +2,6 @@ package com.sideprojhub.hub.android.ui.login
 
 import android.content.Intent
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.sideprojhub.hub.android.R
 import com.sideprojhub.hub.android.databinding.ActivityLoginBinding
@@ -16,6 +15,7 @@ class LoginActivity : BaseActivity<ActivityLoginBinding>(R.layout.activity_login
         val splashScreen = installSplashScreen()
         super.onCreate(savedInstanceState)
 
+        onBackPressedDispatcher.addCallback(this, onBackPressedCallback)
     }
 
     override fun setListener() {
@@ -26,6 +26,7 @@ class LoginActivity : BaseActivity<ActivityLoginBinding>(R.layout.activity_login
         }
 
         binding.btnLogin.setOnClickListener {
+            finish()
             startActivity(Intent(this@LoginActivity, SelectAuthActivity::class.java))
         }
     }
