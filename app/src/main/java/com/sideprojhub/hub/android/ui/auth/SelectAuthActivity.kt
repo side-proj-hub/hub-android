@@ -5,6 +5,7 @@ import android.os.Bundle
 import com.sideprojhub.hub.android.R
 import com.sideprojhub.hub.android.databinding.ActivitySelectAuthBinding
 import com.sideprojhub.hub.android.ui.BaseActivity
+import com.sideprojhub.hub.android.ui.join.JoinCompanyActivity
 import com.sideprojhub.hub.android.ui.manage.create.CreateCompanyActivity
 
 class SelectAuthActivity : BaseActivity<ActivitySelectAuthBinding>(R.layout.activity_select_auth) {
@@ -24,7 +25,7 @@ class SelectAuthActivity : BaseActivity<ActivitySelectAuthBinding>(R.layout.acti
             }
 
             binding.btnEmployee.root.setOnClickListener {
-                toast("직원 클릭됨.")
+                startActivity(Intent(this@SelectAuthActivity, JoinCompanyActivity::class.java))
             }
     }
 

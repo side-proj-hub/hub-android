@@ -58,5 +58,17 @@
     <string name="create_company_btn_next_team">등록하기</string>
     <string name="create_company_btn_next_team_n">%1$s개 팀 등록하기</string>
 
+    <!--    JoinCompanyActivity-->
+    <string name="join_company_title_code">관리자에게 받은\n 회사코드를 입력해주세요.</string>
+    <string name="join_company_hint_code">회사코드</string>
+    <string name="join_company_btn_next_code">확인</string>
+    <string name="join_company_title_organization">\"%1$s\"에서\n소속팀과 동호회를 선택해주세요.</string>
+    <string name="join_company_hint_organization_team">소속팀</string>
+    <string name="join_company_hint_organization_club">동호회</string>
+    <string name="join_company_btn_next_organization">다음</string>
+    <string name="join_company_title_image">활동을 위해 프로필 사진을\n등록해주세요.</string>
+    <string name="join_company_btn_next_image">시작하기</string>
+
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
