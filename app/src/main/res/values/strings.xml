@@ -69,6 +69,11 @@
     <string name="join_company_title_image">활동을 위해 프로필 사진을\n등록해주세요.</string>
     <string name="join_company_btn_next_image">시작하기</string>
 
+    <!--    HomeActivity-->
+    <string name="home_bottom_nav_menu_feed">홈</string>
+    <string name="home_bottom_nav_menu_club">동호회</string>
+    <string name="home_bottom_nav_menu_my_club">내 동호회</string>
+    <string name="home_bottom_nav_menu_my_info">내 정보</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

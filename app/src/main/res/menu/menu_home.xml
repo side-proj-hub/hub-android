@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/feedFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_bt_nav_home"
+        android:title="@string/home_bottom_nav_menu_feed" />
+
+    <item
+        android:id="@+id/clubFragment"
+        android:icon="@drawable/ic_bt_nav_home"
+        android:enabled="true"
+        android:title="@string/home_bottom_nav_menu_club" />
+
+    <item
+        android:id="@+id/myClubFragment"
+        android:icon="@drawable/ic_bt_nav_home"
+        android:enabled="true"
+        android:title="@string/home_bottom_nav_menu_my_club" />
+
+    <item
+        android:id="@+id/myInfoFragment"
+        android:icon="@drawable/ic_bt_nav_home"
+        android:enabled="true"
+        android:title="@string/home_bottom_nav_menu_my_info" />
+
+
+</menu>
