@@ -21,6 +21,7 @@
             app:defaultNavHost="true"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toTopOf="@id/nav"
+            app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:navGraph="@navigation/nav_home"/>
 
@@ -29,7 +30,6 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            style="@style/Widget.Material3.BottomNavigationView.ActiveIndicator"
             android:layout_width="match_parent"
             app:menu="@menu/menu_home"
             app:labelVisibilityMode="labeled"

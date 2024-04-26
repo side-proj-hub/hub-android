@@ -75,5 +75,11 @@
     <string name="home_bottom_nav_menu_my_club">내 동호회</string>
     <string name="home_bottom_nav_menu_my_info">내 정보</string>
 
+    <!--    FeedFragment-->
+    <string name="feed_text_app_bar">HUB</string>
+    <string name="feed_text_notice_add">첫 게시물을\n등록해보세요.</string>
+    <string name="feed_text_empty">등록된 게시글이\n없습니다.</string>
+
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
