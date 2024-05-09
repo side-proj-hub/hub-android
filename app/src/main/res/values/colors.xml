@@ -5,5 +5,6 @@
     <color name="gray_alpha">#1F1F1F1F</color>
     <color name="gray">#EAEAEA</color>
     <color name="light_gray">#F3F3F3</color>
+    <color name="dark_gray">#848484</color>
     <color name="primary">#6750A4</color>
 </resources>

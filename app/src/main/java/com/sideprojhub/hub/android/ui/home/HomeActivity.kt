@@ -7,7 +7,9 @@ import com.google.android.material.navigation.NavigationBarView
 import com.sideprojhub.hub.android.R
 import com.sideprojhub.hub.android.databinding.ActivityHomeBinding
 import com.sideprojhub.hub.android.ui.BaseActivity
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class HomeActivity : BaseActivity<ActivityHomeBinding>(R.layout.activity_home) {
 
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -80,6 +80,19 @@
     <string name="feed_text_notice_add">첫 게시물을\n등록해보세요.</string>
     <string name="feed_text_empty">등록된 게시글이\n없습니다.</string>
 
+    <!--    feed_item-->
+    <string name="post_type_board">게시물</string>
+    <string name="post_type_example">블라블라</string>
+    <string name="feed_item_hour">%1$s 전</string>
+
+    <string name="feed_image_divider">/</string>
+
+    <string name="feed_item_tagged_title">언급됨</string>
+    <string name="feed_item_tagged_count">\@%1$d명이 언급됨</string>
+    <string name="feed_item_favorite_title">좋아요</string>
+    <string name="feed_item_favorite_count">%1$d개의 좋아요</string>
+    <string name="feed_item_comment_count">%1$d개의 댓글 보기</string>
+    <string name="feed_item_write_comment">댓글 달기</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
